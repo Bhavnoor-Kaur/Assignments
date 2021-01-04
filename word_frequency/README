@@ -1,0 +1,35 @@
+|---------------------------------------------
+| Name: Bhavnoor Kaur
+| Student ID: 1623727
+| CMPUT 274, Fall 2020
+|
+| Weekly Exercise 2: Unfair Dice
+|---------------------------------------------
+
+Included Files:
+ * freq.py
+ * README
+
+Notes and Assumptions:
+ 
+ The freq.py file contains the following three functions:
+
+ * extract_file(): Checks if the command line arguments are valid, if not - it prints out an error
+                   message and prints out the correct usage, if yes - it opens the input file and gives the list of the lines in the file
+
+ * word_counter(): This function calculates the number of times a word appears in the input file,
+                   and the frequency which is the ratio of the count of the word by the total number of words present. 
+                   It returns a list "table" which contains the word, count and frequency as elements in lexicographic order.
+ * output(): This function opens an output file and names it. Then it writes the elemnts of the
+             table line by line in the output file.
+
+The following assumptions are made:
+# The input file given is located in the sam edirectory as freq.py
+# The input file is a plaintext
+# The ouput file destination is either empty or doesnot exist.
+
+Running Instructions:
+
+# Enter the name of the input file in the terminal in the following format:
+  python3 freq.py <input_file_name>
+  where <input_file_name> is name of the input file.

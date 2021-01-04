@@ -1,0 +1,34 @@
+|---------------------------------------------
+| Name: Bhavnoor Kaur
+| Student ID: 1623727
+| CMPUT 274, Fall 2020
+|
+| Weekly Exercise 7: Dr. Moneybags
+|---------------------------------------------
+
+Included Files:
+ * moneybags.py
+ * README
+
+Notes and Assumptions:
+ The moneybags.py contains the following functions:
+ *take_input(): This function takes no arguments. It takes the user
+                input for the number of applicants(n) in a single line,
+                then it takes the in "n" lines for each applicants
+                net worth and returns "n", an integer and "applicants",
+                a list conatining all the applicants net worth.
+
+ *min_wealth_threshold(n, applicants): This functions takes the
+                                       arguments as n, the number of
+                                       applicants and "applicants", a
+                                       list containing all the applicants net worth. It calculates the minimum wealth threshold that qualifies the applicants for the Dr. Moneybags club. This is done by returning the maximum number "k" for which there are atleast "k" applicnats that have atleast "k" million dollars.
+ * main(): This function is the main function that calls all the other
+           functions to run the program successfully.
+
+Running Instructions:
+
+# Enter the following in the terminal:
+
+  python3 moneybags.py
+  
+  And then give a single integer input for the number of applicants(n), following wgich provide an "n" line input each line containing each applicants net worth.

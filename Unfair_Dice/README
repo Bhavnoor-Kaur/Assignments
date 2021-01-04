@@ -1,0 +1,23 @@
+| -------------------------------------------
+|Name: Bhavnoor Kaur
+| Student ID: 1623727
+| CMPUT 274, Fall 2020
+|
+| Weekly Exercise 2: Unfair Dice
+|---------------------------------------------
+
+Included Files:
+ * unfairDice.py
+ * README
+
+Notes and Assumptions:
+ 
+ * biased_rolls(prob_list, s, n): Simulates n (integer) rolls of a biased m-sided die and return
+                                  a list containing the results. This function takes a list containing
+                                  the probablities of the m sides of the die and a seed value - 's' to
+                                  determine the results.
+
+ * draw_histogram(m, rolls, width): This function takes a list of 'rolls' as an argument and draws a
+                                    frequency histogram of the rolls of an m-sided die
+                                    mapped to a fixed width.
+  

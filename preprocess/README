@@ -1,0 +1,31 @@
+|---------------------------------------------
+| Name: Bhavnoor Kaur
+| Student ID: 1623727
+| CMPUT 274, Fall 2020
+|
+| Weekly Exercise 4: Text Preprocessor
+|---------------------------------------------
+
+Included Files:
+ * preprocess.py
+ * README
+
+Running Instructions:
+
+# Enter the following in the command line:
+  python3 preprocess.py <mode>
+  where <mode> is the mode in which the user wants to run the program.
+  <mode> is optional but if present it has to be from the following values:
+  keep-digits, keep-stops, keep-symbols
+
+
+Notes and Assumptions:
+ 
+ The preprocess.py file contains the following two functions:
+
+ * read_command(): This function asseses the command line argument. If the commmand line argument
+                   is inputed correctly, it will return the value of mode otherwise it will print out an error message along with the proper usage of the program
+
+ * preprocess(): This function processes the words entered as input by the user and creates a list
+                 of filtered words by converting to lower case, removing numbers from words unless the string is only composed of numbers, removing all the non alphanumeric charcters and then removing the filtered words from the list.
+                 This function also takes into consideration the command line argument <mode>. If  <mode> is specified as keep-digits, this function will not remove the digits from the words but will perform every other step, if the <mode> is specified as keep-stops, this function will not remove the stopwords but perform any other function. Similarly, if <mode> is defined as keep-symbols, this function will not remove the non alphanumeric characters from the words but will perform all other operations. This function outputs space separated list of processed words.
